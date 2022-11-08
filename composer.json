@@ -1,0 +1,29 @@
+{
+	"name": "binfotech/streams",
+	"description": "A set of generic stream wrappers",
+	"license": "MIT",
+	"authors": [
+		{
+      "name": "Raman Deep Bajwa",
+      "email": "dbajwa763@gmail.com"
+    }
+	],
+	"require": {
+		"php": ">=7.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9",
+		"friendsofphp/php-cs-fixer": "^2",
+		"phpstan/phpstan": "^0.12"
+	},
+	"autoload": {
+		"psr-4": {
+			"BInfotech\\Streams\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"BInfotech\\Streams\\Tests\\": "tests/"
+		}
+	}
+}
